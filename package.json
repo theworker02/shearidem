@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/shearidem",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Shear encode/decode helpers for idem payloads in pipelines.",
+  "bin": {
+    "shearidem": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/shearidem.git"
+  },
+  "homepage": "https://theworker02.github.io/shearidem/",
+  "keywords": [
+    "shear",
+    "idem",
+    "encode",
+    "cli",
+    "toolkit"
+  ]
+}
